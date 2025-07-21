@@ -1,0 +1,17 @@
+{
+  "name": "Entorno de desarrollo - SPAA",
+  "features": {},
+  "postCreateCommand": "echo 'Codespace inicializado correctamente'",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "spaa-datos-dev/SiGITA_backend": {
+          "permissions": "read-all"
+        },
+        "spaa-datos-dev/SiGITA_frontend": {
+          "permissions": "read-all"
+        }
+      }
+    }
+  }
+}
